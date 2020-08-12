@@ -6,17 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JavaScript Exercise</title>
     <link rel='stylesheet' href="./main.css" />
-    <link rel='javascript' href="./main.js" />
 </head>
 <body>
-    <button onclick="document.getElementById('yes').src='jack yes.png'">Here</button>
-    <h1>Homer Meme</h1>
-    <button onclick="here()">Here</button>
+    <h1>A Web Page</h1>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
 
-    <img id="yes" src="jack yes.png" style="width:500px">
-    <img id="no" src="jack no.png" style="width:500px">
+<script>
 
-    <button onclick="document.getElementById('yes').src='jack yes.png'">Gone</button>
-    <button onclick="gone()">Gone</button>
+let t = true;
+function myFunction() {
+    
+
+    if (t) {
+        t = false;
+        document.getElementById("demo").innerHTML = "Paragraph changed.";
+        
+    } else {
+        t = true;
+        document.getElementById("demo").innerHTML = "A Paragraph.";
+        
+    }
+}
+</script>
 </body>
 </html> 
