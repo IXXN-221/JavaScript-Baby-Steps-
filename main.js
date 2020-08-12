@@ -1,7 +1,15 @@
-function here() {
-    document.getElementById('yes').src='jack no.png';
-}
+let t = true;
 
-function gone() {
-    document.getElementById('no').src='jack yes.png';
-} 
+function myFunction() {
+    
+
+    if (t) {
+        t = false;
+        document.getElementById('pic').src='2.jpg';
+        
+    } else {
+        t = true;
+        document.getElementById('pic').src='1.jpg';
+        
+    }
+}
