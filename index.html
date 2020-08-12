@@ -8,5 +8,26 @@
     <link rel='stylesheet' href="./main.css" />
 </head>
 <body>
+    <h1>A Web Page</h1>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+
+let t = true;
+function myFunction() {
+    
+
+    if (t) {
+        t = false;
+        document.getElementById("demo").innerHTML = "Paragraph changed.";
+        
+    } else {
+        t = true;
+        document.getElementById("demo").innerHTML = "A Paragraph.";
+        
+    }
+}
+</script>
 </body>
 </html> 
