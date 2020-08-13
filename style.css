@@ -1,9 +1,3 @@
-<<<<<<< Updated upstream
-body {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-=======
 html {
     margin: 0px;
     padding: 0px;
@@ -31,4 +25,3 @@ button {
     justify-self: center;
     width: fit-content;
 }
->>>>>>> Stashed changes
