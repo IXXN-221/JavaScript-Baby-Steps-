@@ -1,7 +1,4 @@
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 let t = true;
 
 function myFunction() {
