@@ -1,4 +1,34 @@
+<<<<<<< Updated upstream
 body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+=======
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 2em;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    align-self: center;
+    justify-self: center;
+
+}
+
+img {
+    justify-self: center;
+}
+
+button {
+    justify-self: center;
+    width: fit-content;
+}
+>>>>>>> Stashed changes
