@@ -1,0 +1,23 @@
+.wrapperbutton {
+    flex: default;
+    text-align: center;
+
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    border: 0px;
+    font-family: 'Arvo', sans-serif;
+    background: black;
+    font-weight: 700;
+    color: aliceblue;
+
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
